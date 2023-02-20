@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <link href="style.css">
+</head>
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<img class="center" th:src="@{/img/MessageingScreenshot.png}" alt="Messing action icons" height="30%">
+<h5><i>(image from <a target="_blank" href="https://fonts.google.com/icons?icon.query=message">Google Fonts</a>)</i></h5>
+
+<div class="ContactMe">
+    <h1 style="text-align:center;"> <u>My Contact Infromation</u> </h1>
+    <h2><b>School Email:</b> <a href="mailto:jmemmel2@my.wctc.edu" target="_blank"><u class="hoverBlue">jmemmel2@my.wctc.edu</u></a></h2>
+    <h2><b>School GitHub Page:</b> <a href="https://github.com/JosephMemmelAtWCTC" target="_blank"><u>@JosephMemmelAtWCTC on Github.com</u></a></h2>
+    <h2><b>Personal GitHub Page:</b> <a href="https://github.com/42null" target="_blank"><u>@42Null on Github.com</u></a></h2>
+    <h2><b>Personal Replit:</b> <a href="https://replit.com/@memmojs" target="_blank">  <u class="hoverBlue">42null on Replit.com</u></a></h2>
+    <br>
+</div>
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

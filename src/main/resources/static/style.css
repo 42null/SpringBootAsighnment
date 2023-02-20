@@ -1,0 +1,115 @@
+:root {
+    /* #0d669f */
+    --colorThemeBackground: brown;
+    --primary_light: #83ecff;
+    --primary_light_light: #bfe6ff;
+    --primary_dark: #5f9ea0;
+    --primary_dark_dark: #004547;
+    --primary_darkest: #002424;
+
+    --nav_color: #74ebcd;
+    --nav_color_greenhouse:  #5ecf507a;
+    --clearGreyImageOverlay: #595959aa;
+    --clearGreyImageOverlay_greenhouse: #35354577;
+
+    --test: rgba(63, 63, 63, 0.374);
+
+    --instructions_background: #cfcfcff6;/*changed for light mode to secondary_background*/
+
+    --header_background: #27a2b8;
+    --header_text: #007589;
+    --version_color: #1eddff;
+
+    /* Recents */
+    --boarder: brown;
+    --boarder_infill: brown;
+    --secondary_background: brown;
+
+    --dark_lighter_background: #970597;/*#b304b3;*/
+    --light_darker_background: #8fc4e5;
+
+}
+
+body {
+    font-family: Arial;
+    /*width: 100%;*/
+    /*overflow: hidden;*/
+}
+
+img {
+    /*padding: 15px;*/
+}
+
+nav {
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--primary_darkest);
+}
+
+li a, li span {
+    /*float: left;*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: var(--primary_dark_dark);
+    text-decoration: none;
+}
+
+li:last-child {
+    float: right;
+}
+
+
+li a:hover {
+    background-color: var(--primary_dark);
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.center {
+    margin: auto;
+}
+
+header {
+    height: 100%;
+}
+
+/*a > img {*/
+#navPrimaryCornerImageText{
+    background-color: #848484;
+    /*margin: auto;*/
+    text-decoration: none;
+}
+#navPrimaryCornerImageText > a{
+    /*background-color: #4CAF50*/
+    font-size: 100%;
+    vertical-align: center;
+}
+
+
+footer {
+    left: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #909;
+}

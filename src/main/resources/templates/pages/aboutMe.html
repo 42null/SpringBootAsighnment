@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <link href="style.css">
+</head>
+
+<body>
+  <div th:insert="fragments/_header :: header"></div>
+
+  <img class="center" th:src="@{/img/CoverHeroImage.jpg}" alt="Image of me standing in front of a fence">
+  <p>
+    <h1>I am AJ Memmel</h1>
+  </p>
+  <h2>And I'm a Software Engineer (among other things)</h2>
+  <p>
+    My old website can be found <a href="https://42null.github.io/NavPages/AboutMe.html" target="_blank"> here</a>.
+  </p>
+  <div th:insert="fragments/_footer :: footer"></div>
+  </body>
+</html>

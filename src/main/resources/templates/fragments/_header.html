@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <link rel="stylesheet" th:href="@{/style.css}">
+
+    <div id="navPrimaryCornerImageText">
+    </div>
+    <nav>
+        <ul>
+            <li><a th:href="@{/}"><img th:src="@{/img/logo.png}" style="padding: 0; margin: 0"/></a></li>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/aboutMe}">About Me</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+            <li><a th:href="@{/platforms}">Platforms</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
